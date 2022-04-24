@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/reserva.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,17 +25,36 @@
     <title>Reservas</title>
 </head>
 <header>
-    <div>
-        <nav class="dropdownmenu">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="./reservas.html">Reservas</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <li><a href="./nosotros.html">Nosotros</a></li>
-            <li><a href="./ubicacion.html">Ubicacion</a></li>
+  <div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"> <img src="../Image/logo.png" width="40px" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./reservas.html">Reservas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
           </ul>
-        </nav>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Escribi aca" aria-label="Search">
+            <button class="btn btn-outline-success bg-dark" type="submit">Buscar</button>
+          </form>
+        </div>
       </div>
+    </nav>
+    </div>
     <section class="formulario">
         <form class="formreserva">
             <h2>Reservar</h2>
@@ -70,7 +90,7 @@
   <footer>
     <div>
       <h4>
-        <ul>
+      <ul class="listafooter">
         <li> Cabañas, Los Pinos 653, Villa Carlos Paz, Córdoba 5152</li>
         <li>3541623459  losnogalesvcp@gmail.com</li>
         <li> Seguinos en nuestras redes: </li>

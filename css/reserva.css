@@ -6,7 +6,7 @@
       background-image: url('../Image/FONDO\ \(2\).jpg');
       background-size: cover;
       background-attachment: fixed;
-      height: 850px
+      height: 1000px
     }
 
     h4{
@@ -19,52 +19,24 @@
       font-size: 12px;
     }
 
-    .dropdownmenu ul {
-      font-family: "Montserrat", sans-serif;
-          background-color: rgb(255, 255, 255);
-          font-size: large;
-          block-size: 25px;
-          flex: content;
-          align-items: center;
-          display: flex;
-          flex-direction: row;
-          justify-content: center;
-          color: #fff;
-          margin-top: 0%;
-          margin-bottom: 0%;
-          block-size: 25px;
-          flex: content;
-          align-items: center;
-          background: none;
-          list-style: none;
-        }
-        .dropdownmenu a {
-          font-family: "Montserrat", sans-serif;
-          align-items: center;
-          background: none;
-          color: #fff;
-          display: flex;
-          flex-wrap: nowrap;
-          flex-direction: row;
-          justify-content: center;
-          font: bold 12px/20px sans-serif;
-          padding: 10px 98px;
-          text-align: center;
-          text-decoration: none;
-          -webkit-transition: all 0.25s ease;
-          -moz-transition: all 0.25s ease;
-          -ms-transition: all 0.25s ease;
-          -o-transition: all 0.25s ease;
-          transition: all 0.25s ease;
-          font-size: large;  font-family: "Montserrat", sans-serif;
-        }
-        .dropdownmenu li:hover a {
-          background: rgb(255, 255, 255);
-          color: black; font-family: 'Montserrat', sans-serif;
-        }
+    .btn-outline-success {
+          color: #ffffff;
+          border-color: #ffffff;
+      }
+  
+  .btn-outline-success:hover {
+    color: #acacac;
+    border-color: #acacac;
+  }
+  .listafooter{
+    list-style: none;
+  }
+  
+  header {
+  font-family: "Montserrat", sans-serif;}
 
 .formreserva{
-    width:340px;height:620px;
+    width:340px;height:750px;
     background:#ffffff;
     border-radius:8px;box-shadow:0 0 40px -10px #000;
     margin:calc(50vh - 220px) auto;padding:20px 30px;

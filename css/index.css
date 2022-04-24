@@ -65,44 +65,22 @@ h4{
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.dropdownmenu ul {
-      font-family: "Montserrat", sans-serif;
-      font-size: large;
-      block-size: 25px;
-      flex: content;
-      align-items: center;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      color: #fff;
-      margin-top: 0%;
-      margin-bottom: 0%;
-      align-items: center;
-    }
-    .dropdownmenu a {
-      font-family: "Montserrat", sans-serif;
-      align-items: center;
-      background: none;
-      color: #fff;
-      display: flex;
-      flex-wrap: nowrap;
-      flex-direction: row;
-      justify-content: center;
-      font: bold 12px/20px sans-serif;
-      padding: 10px 98px;
-      text-align: center;
-      text-decoration: none;
-      -webkit-transition: all 0.25s ease;
-      -moz-transition: all 0.25s ease;
-      -ms-transition: all 0.25s ease;
-      -o-transition: all 0.25s ease;
-      transition: all 0.25s ease;
-      font-size: large;  font-family: "Montserrat", sans-serif;
-    }
-    .dropdownmenu li:hover a {
-      background: rgb(255, 255, 255);
-      color: black; font-family: 'Montserrat', sans-serif;
-    }
+.btn-outline-success {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-outline-success:hover {
+color: #acacac;
+border-color: #acacac;
+}
+.listafooter{
+list-style: none;
+}
+
+header {
+font-family: "Montserrat", sans-serif;}
+
 .float {
   position: fixed;
   width: 60px;

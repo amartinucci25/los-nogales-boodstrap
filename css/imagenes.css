@@ -6,6 +6,7 @@ header{
         background-size: cover;
         background-attachment: fixed;
         width: auto;
+        font-family: "Montserrat", sans-serif;
       }
 
       h4{
@@ -17,55 +18,20 @@ header{
         margin-top: 1.5%;
         font-size: 12px;
       }
-.menu{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+
+  .btn-outline-success {
+        color: #ffffff;
+        border-color: #ffffff;
+    }
+
+.btn-outline-success:hover {
+  color: #acacac;
+  border-color: #acacac;
 }
-.dropdownmenu ul {
-    font-family: "Montserrat", sans-serif;
-        background-color: rgb(255, 255, 255);
-        font-size: large;
-        block-size: 25px;
-        flex: content;
-        align-items: center;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        color: #fff;
-        margin-top: 0%;
-        margin-bottom: 0%;
-        block-size: 25px;
-        flex: content;
-        align-items: center;
-        background: none;
-        list-style: none;
-        width: 100%;
-      }
-      .dropdownmenu a {
-        font-family: "Montserrat", sans-serif;
-        align-items: center;
-        background: none;
-        color: #fff;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: center;
-        font: bold 12px/20px sans-serif;
-        padding: 10px 98px;
-        text-align: center;
-        text-decoration: none;
-        -webkit-transition: all 0.25s ease;
-        -moz-transition: all 0.25s ease;
-        -ms-transition: all 0.25s ease;
-        -o-transition: all 0.25s ease;
-        transition: all 0.25s ease;
-        font-size: large;  font-family: "Montserrat", sans-serif;
-      }
-      .dropdownmenu li:hover a {
-        background: rgb(255, 255, 255);
-        color: black; font-family: 'Montserrat', sans-serif;
-      }
+.listafooter{
+  list-style: none;
+}
+
 
 .grid{
     display: grid;
