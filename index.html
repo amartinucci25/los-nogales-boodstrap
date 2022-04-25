@@ -77,32 +77,32 @@
     <a href="./pages/imagenes.html"> Imágenes</a>
     </h3>
   </div>
-          <div class="carrusel">
-            <ul class="slider">
-              <li id="slide1">
-                <img src="./Image/Derecha.jpeg"/>
-              </li>
-              <li id="slide2">
-                <img src="./Image/Principal.jpeg"/>
-              </li>
-              <li id="slide3">
-                  <img src="./Image/Izquierda.jpeg" alt="">
-              </li>
-            </ul>
-
-            <ul class="menu">
-              <br>
-                <li>
-                <a href="#slide1"></a>
-              </li>
-              <li>
-                <a href="#slide2"></a>
-              </li>
-               <li>
-                <a href="#slide3"></a>
-              </li>
-            </ul>
-          </div>
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./Image/Derecha.jpeg" class="d-block w-100" alt="Derecha">
+      </div>
+      <div class="carousel-item">
+        <img src="./Image/Principal.jpeg" class="d-block w-100" alt="Principal">
+      </div>
+      <div class="carousel-item">
+        <img src="./Image/Izquierda.jpeg" class="d-block w-100" alt="Izquierda">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
           <div>
             <a href="https://wa.me/543541623459" class="float" target="_blank">
                 <i class="fa fa-whatsapp my-float"></i>
