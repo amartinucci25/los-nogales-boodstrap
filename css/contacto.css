@@ -5,7 +5,7 @@ header{
       background-image: url('../Image/FONDO\ \(2\).jpg');
         background-size: cover;
         background-attachment: fixed;
-        height: 600px;
+        height: 700px;
         font-family: "Montserrat", sans-serif;
       }
 
@@ -31,7 +31,7 @@ header{
   list-style: none;
 }
 
-.form{    width:340px;height:400px;
+.form{    width:340px;height: 480px;
     background:#ffffff;
     border-radius:8px;box-shadow:0 0 40px -10px #000;
     margin:calc(50vh - 220px) auto;padding:20px 30px;
@@ -104,7 +104,7 @@ header{
         display: block;
       }
       header{ 
-        width: 100%; background-color: #fff; height: 750px;
+        width: 100%; background-color: #fff; height: 850px;
       }
       body{
         background-color: #fff;
