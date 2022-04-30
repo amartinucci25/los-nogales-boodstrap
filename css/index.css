@@ -1,87 +1,74 @@
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 .body {
-background-color: #fff;
-  
-}
-header{
-  background-image: url('../Image/FONDO\ \(2\).jpg');
+  background-color: #fff; }
+
+header {
+  background-image: url("../Image/FONDO (2).jpg");
   background-size: cover;
   background-attachment: fixed;
   font-family: "Montserrat", sans-serif;
-  height: 600px;
-}
-h1 {
-  color: #fff;
-  font-family: "Mrs Saint Delafield", cursive;
-  text-align: center;
-  font-size: 80px;
-  flex-direction: column;
-  align-content: space-around;
-  margin-top: 200px;
-}
+  height: 600px; }
+  header h1 {
+    color: #fff;
+    font-family: "Mrs Saint Delafield", cursive;
+    text-align: center;
+    font-size: 80px;
+    flex-direction: column;
+    align-content: space-around;
+    margin-top: 200px; }
+  header h2 {
+    display: flex;
+    flex-direction: column;
+    text-decoration: overline;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #fff; }
+  header .btn-outline-success {
+    color: #ffffff;
+    border-color: #ffffff; }
+  header .btn-outline-success:hover {
+    color: #acacac;
+    border-color: #acacac; }
+  header .listafooter {
+    list-style: none; }
 
-
-h2 {
-  display: flex;
-  flex-direction: column;
-  text-decoration: overline;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
-}
-h3{
-  display: flex;
-  flex-direction: column;
-  text-decoration: overline;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  color: rgb(0, 0, 0);
-  margin-top: 2.5%;
-  font-size: 30px;
-}
-
-h4{
+.body h4 {
   display: flex;
   flex-direction: column;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  color: rgb(0, 0, 0);
+  color: black;
   margin-top: 1.5%;
-  font-size: 12px;
-}
+  font-size: 12px; }
 
-.Lista { display: flex;     
-  flex-direction:row; 
-  justify-content: center; flex-direction: row;
+.body h3 {
+  display: flex;
+  flex-direction: column;
+  text-decoration: overline;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  margin-top: 2.5%;
+  font-size: 30px; }
+
+.body .Lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   justify-content: space-evenly;
   font-family: "Montserrat", sans-serif;
   font-size: large;
-  color: rgb(0, 0, 0);
+  color: black;
   margin-top: 5%;
-  margin-bottom: 5%;
-}
-.btn-outline-success {
-  color: #ffffff;
-  border-color: #ffffff;
-}
-.btn-outline-success:hover {
-color: #acacac;
-border-color: #acacac;
-}
-.listafooter{
-list-style: none;
-}
+  margin-bottom: 5%; }
 
-header {
-font-family: "Montserrat", sans-serif;}
-
-.float {
+.body .float {
   position: fixed;
   width: 60px;
   height: 60px;
@@ -93,66 +80,35 @@ font-family: "Montserrat", sans-serif;}
   text-align: center;
   font-size: 30px;
   box-shadow: 2px 2px 3px #999;
-  z-index: 100;
-}
-.float:hover {
+  z-index: 100; }
+
+.body .float:hover {
   text-decoration: none;
   color: #25d366;
-  background-color: #fff;
-}
+  background-color: #fff; }
 
-.my-float {
-  margin-top: 16px;
-}
+.body .my-float {
+  margin-top: 16px; }
 
-
-.menu {
-  text-align: center;
-  margin: 20px;
-}
-
-.menu li {
-  display: inline-block;
-  text-align: center;
-}
-
-.menu li a {
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  background-color: rgb(111, 111, 111);
-  padding: 5px;
-  width: 1px;
-  height: 1px;
-  border-radius: 100%;
-  margin-top: 30px;
-}
-.menu li a:hover{
-  background-color: rgb(0, 0, 0);
-}
 footer {
-  background-color: rgb(255, 255, 255); border-top:1px solid rgb(194, 194, 194);
-}
-article {
-  width: 100%;
-  margin: 0px;
-  margin-top: 0;
-  text-align: center;
-  zoom: 1;
-}
-a {
-  outline: none;
-  border: 0;
-  text-decoration: none;
-}
-a svg #facebook,
-a svg #instagram {
-  transition: 200ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 200ms;
-  -webkit-transition-timing-function: ease-in-out;
-}
-a svg:hover #facebook,
-a svg:hover #instagram {
-  fill: #111;
-}
+  background-color: white;
+  border-top: 1px solid #c2c2c2; }
+  footer article {
+    width: 100%;
+    margin: 0px;
+    margin-top: 0;
+    text-align: center;
+    zoom: 1; }
+  footer a {
+    outline: none;
+    border: 0;
+    text-decoration: none; }
+  footer a svg #facebook,
+  footer a svg #instagram {
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out; }
+  footer a svg:hover #facebook,
+  footer a svg:hover #instagram {
+    fill: #111; }

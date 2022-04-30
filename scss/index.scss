@@ -1,0 +1,133 @@
+$gris: #acacac;
+$wp: #25d366;
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background-color: #fff;
+}
+header {
+  background-image: url("../Image/FONDO\ \(2\).jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Montserrat", sans-serif;
+  height: 600px;
+  h1 {
+    color: #fff;
+    font-family: "Mrs Saint Delafield", cursive;
+    text-align: center;
+    font-size: 80px;
+    flex-direction: column;
+    align-content: space-around;
+    margin-top: 200px;
+  }
+  h2 {
+    display: flex;
+    flex-direction: column;
+    text-decoration: overline;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+  }
+  .btn-outline-success {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  .btn-outline-success:hover {
+    color: $gris;
+    border-color: $gris;
+  }
+  .listafooter {
+    list-style: none;
+  }
+}
+.body{
+    h4 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(0, 0, 0);
+        margin-top: 1.5%;
+        font-size: 12px;
+      }
+      h3 {
+        display: flex;
+        flex-direction: column;
+        text-decoration: overline;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        color: rgb(0, 0, 0);
+        margin-top: 2.5%;
+        font-size: 30px;
+      }
+      .Lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        justify-content: space-evenly;
+        font-family: "Montserrat", sans-serif;
+        font-size: large;
+        color: rgb(0, 0, 0);
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+      .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: $wp;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index: 100;
+      }
+      .float:hover {
+        text-decoration: none;
+        color: $wp;
+        background-color: #fff;
+      }
+      
+      .my-float {
+        margin-top: 16px;
+      }
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(194, 194, 194);
+article {
+  width: 100%;
+  margin: 0px;
+  margin-top: 0;
+  text-align: center;
+  zoom: 1;
+}
+a {
+  outline: none;
+  border: 0;
+  text-decoration: none;
+}
+a svg #facebook,
+a svg #instagram {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+a svg:hover #facebook,
+a svg:hover #instagram {
+  fill: #111;
+}
+}
+
+
