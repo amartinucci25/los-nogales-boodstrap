@@ -2,11 +2,12 @@
   padding: 0;
   margin: 0;
 }
-header {
+.headerreserva {
   background-image: url("../Image/FONDO\ \(2\).jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 1000px;
+  font-family: "Montserrat", sans-serif;
 }
 
 h4 {
@@ -32,10 +33,6 @@ h4 {
   list-style: none;
 }
 
-header {
-  font-family: "Montserrat", sans-serif;
-}
-
 .formreserva {
   width: 340px;
   height: 750px;
@@ -50,7 +47,7 @@ header {
   font-family: "Montserrat", sans-serif;
   position: relative;
 }
-h2 {
+.tituloreserva {
   margin: 10px 0;
   padding-bottom: 10px;
   width: 180px;
@@ -112,36 +109,11 @@ span {
   font-size: 13px;
   box-shadow: 10px 10px 40px -14px #000;
 }
+
 span {
   margin: 0 5px 0 15px;
 }
-footer {
-  background-color: rgb(255, 255, 255);
-  border-top: 1px solid rgb(194, 194, 194);
-}
-article {
-  width: 100%;
-  margin: 0px;
-  margin-top: 0;
-  text-align: center;
-  zoom: 1;
-}
-a {
-  outline: none;
-  border: 0;
-  text-decoration: none;
-}
-a svg #facebook,
-a svg #instagram {
-  transition: 200ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 200ms;
-  -webkit-transition-timing-function: ease-in-out;
-}
-a svg:hover #facebook,
-a svg:hover #instagram {
-  fill: #111;
-}
+
 .float {
   position: fixed;
   width: 60px;
