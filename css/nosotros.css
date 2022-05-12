@@ -22,7 +22,7 @@ header{ display: block;
 
 }
 
-h3{
+.cuerponosotros{
   color: #fff; background-color: rgba(17, 17, 17, 0.466);
 }
 
@@ -48,7 +48,7 @@ h4{
 .listafooter{
   list-style: none;
 }
-    h2{
+.titulonosotros{
       color: #fff;
       font-family: "Mrs Saint Delafield", cursive;
       text-align: center;
@@ -143,7 +143,7 @@ a svg:hover #instagram {
   box-shadow: 2px 2px 3px #999;
   z-index: 100;
   }
-h3{
+.cuerponosotros{
   text-align: center;
 }
 }

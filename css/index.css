@@ -2,6 +2,567 @@
   padding: 0;
   margin: 0; }
 
+.headercontact {
+  background-image: url("../Image/FONDO (2).jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 700px;
+  font-family: "Montserrat", sans-serif; }
+
+.textofooter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  margin-top: 1.5%;
+  font-size: 12px; }
+
+.btn-outline-success {
+  color: #ffffff;
+  border-color: #ffffff; }
+
+.btn-outline-success:hover {
+  color: #acacac;
+  border-color: #acacac; }
+
+.listafooter {
+  list-style: none; }
+
+.form {
+  width: 340px;
+  height: 480px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: relative; }
+
+.titulocontact {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: black;
+  border-bottom: 3px solid black;
+  font-family: "Montserrat", sans-serif; }
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  transition: all .3s;
+  border-bottom: 2px solid black;
+  font-family: "Montserrat", sans-serif; }
+
+input:focus {
+  border-bottom: 2px solid black;
+  font-family: "Montserrat", sans-serif; }
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: black;
+  font-family: "Montserrat", sans-serif; }
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  border: 2px solid black;
+  background: 0;
+  color: black;
+  cursor: pointer;
+  transition: all .3s;
+  font-family: "Montserrat", sans-serif; }
+
+button:hover {
+  background: black;
+  color: #fff;
+  font-family: "Montserrat", sans-serif; }
+
+span {
+  margin: 0 5px 0 15px;
+  font-family: "Montserrat", sans-serif; }
+
+.menudatos {
+  content: 'Hi';
+  position: absolute;
+  bottom: -40px;
+  right: -20px;
+  background: black;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000;
+  font-family: "Montserrat", sans-serif; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .form {
+    width: 340px;
+    height: 480px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(auto - auto) auto;
+    padding: 20px 30px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    position: relative; } }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.headerreserva {
+  background-image: url("../Image/FONDO (2).jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 1000px;
+  font-family: "Montserrat", sans-serif; }
+
+h4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  margin-top: 1.5%;
+  font-size: 12px; }
+
+.btn-outline-success {
+  color: #ffffff;
+  border-color: #ffffff; }
+
+.btn-outline-success:hover {
+  color: #acacac;
+  border-color: #acacac; }
+
+.listafooter {
+  list-style: none; }
+
+.formreserva {
+  width: 340px;
+  height: 750px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: relative; }
+
+.tituloreserva {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: black;
+  border-bottom: 3px solid black; }
+
+.imput1 {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.3s;
+  border-bottom: 2px solid black; }
+
+input:focus {
+  border-bottom: 2px solid black; }
+
+p:before {
+  content: attr(type);
+  display: block;
+  margin: 28px 0 0;
+  font-size: 14px;
+  color: #5a5a5a; }
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: solid;
+  border: 2px solid black;
+  background: 0;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s; }
+
+button:hover {
+  background: black;
+  color: #fff; }
+
+span {
+  margin: 0 5px 0 15px; }
+
+.menudatos {
+  content: "Hi";
+  position: absolute;
+  bottom: -40px;
+  right: -20px;
+  background: black;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000; }
+
+span {
+  margin: 0 5px 0 15px; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .dropdownmenu ul {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 200px; }
+  .menu {
+    display: block; }
+  header {
+    width: 100%;
+    background-color: #fff;
+    height: 950px; }
+  body {
+    background-color: #fff; }
+  .footer {
+    width: 100%;
+    height: auto; }
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100; }
+  .formreserva {
+    margin: calc(auto - auto) auto;
+    padding: 20px 30px; } }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  justify-content: center;
+  background-color: #fff;
+  padding: 70px; }
+
+.headerimage {
+  height: 950px;
+  width: auto;
+  background-color: #fff; }
+
+.imagenprueba {
+  border-radius: 2%; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .dropdownmenu ul {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 200px; }
+  .menu {
+    display: block; }
+  .headerimage {
+    width: 100%;
+    height: 2500px;
+    background-color: #fff; }
+  body {
+    background-color: #fff; }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr; }
+  .footer {
+    width: 100%;
+    height: auto; }
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100; } }
+
+.headermaps {
+  background-image: url("../Image/FONDO (2).jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 850px; }
+
+.formubicacion {
+  font-family: "Montserrat", sans-serif;
+  width: 660px;
+  height: 600px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(50vh - 220px) auto;
+  padding: 20px 30px;
+  max-width: calc(100vw - 40px);
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  position: relative; }
+
+.mapagoogle {
+  width: 600px;
+  height: 450px; }
+
+.menudatos {
+  content: "Hi";
+  position: absolute;
+  bottom: -40px;
+  right: -20px;
+  background: #000000;
+  color: #fff;
+  width: 320px;
+  padding: 16px 4px 16px 0;
+  border-radius: 6px;
+  font-size: 13px;
+  box-shadow: 10px 10px 40px -14px #000;
+  font-family: "Montserrat", sans-serif; }
+
+span {
+  margin: 0 5px 0 15px;
+  font-family: "Montserrat", sans-serif; }
+
+.titulomaps {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #000000;
+  border-bottom: 3px solid #000000;
+  font-family: "Montserrat", sans-serif; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.float:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff; }
+
+.my-float {
+  margin-top: 16px; }
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .dropdownmenu ul {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 200px; }
+  .menu {
+    display: block; }
+  .headermaps {
+    width: 100%;
+    background-color: #fff;
+    height: 600px; }
+  body {
+    background-color: #fff; }
+  .footer {
+    width: 100%;
+    height: auto; }
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100; }
+  .formubicacion {
+    width: 445px;
+    height: 400px;
+    margin: calc(auto - auto) auto;
+    padding: 20px 30px; }
+  .mapagoogle {
+    width: auto;
+    height: 250px;
+    justify-items: center; } }
+
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px; }
+
+.titulonosotros {
+  color: #fff;
+  font-family: "Mrs Saint Delafield", cursive;
+  text-align: center;
+  font-size: 70px;
+  flex-direction: column;
+  align-content: space-around; }
+
+.cuerponosotros {
+  color: #fff;
+  background-color: rgba(17, 17, 17, 0.466);
+  font-size: 15px;
+  text-align: center;
+  margin: 10px; }
+
+@media screen and (min-width: 320px) and (max-width: 700px) {
+  .dropdownmenu ul {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 200px; }
+  .menu {
+    display: block; }
+  header {
+    width: 100%;
+    background-color: #fff;
+    height: 1000px; }
+  body {
+    background-color: #fff; }
+  .footer {
+    width: 100%;
+    height: auto; }
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 10px;
+    right: 10px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100; }
+  .cuerponosotros {
+    text-align: center;
+    margin: 5px; } }
+
+* {
+  padding: 0;
+  margin: 0; }
+
 .body {
   background-color: #fff; }
 
@@ -66,7 +627,8 @@ header {
   font-size: large;
   color: black;
   margin-top: 5%;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  list-style: none; }
 
 .body .float {
   position: fixed;
@@ -89,6 +651,13 @@ header {
 
 .body .my-float {
   margin-top: 16px; }
+
+.botonimagen {
+  text-decoration: none;
+  color: #111; }
+
+.botonimagen:hover {
+  color: #acacac; }
 
 footer {
   background-color: white;
