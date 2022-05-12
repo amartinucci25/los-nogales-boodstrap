@@ -137,8 +137,7 @@ span {
     background: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
-    margin: calc(auto - auto) auto;
-    padding: 20px 30px;
+    margin: calc(10vh - 40px) auto;
     max-width: calc(100vw - 40px);
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
@@ -307,8 +306,7 @@ span {
     box-shadow: 2px 2px 3px #999;
     z-index: 100; }
   .formreserva {
-    margin: calc(auto - auto) auto;
-    padding: 20px 30px; } }
+    margin: calc(10vh - 50px) auto; } }
 
 * {
   padding: 0;
@@ -496,8 +494,7 @@ span {
   .formubicacion {
     width: 445px;
     height: 400px;
-    margin: calc(auto - auto) auto;
-    padding: 20px 30px; }
+    margin: calc(130px - 100px) auto; }
   .mapagoogle {
     width: auto;
     height: 250px;
@@ -533,10 +530,8 @@ span {
     height: 200px; }
   .menu {
     display: block; }
-  header {
-    width: 100%;
-    background-color: #fff;
-    height: 1000px; }
+  .headernosotros {
+    height: 800px; }
   body {
     background-color: #fff; }
   .footer {
@@ -564,7 +559,7 @@ span {
   margin: 0; }
 
 .body {
-  background-color: #fff; }
+  background-color: white; }
 
 header {
   background-image: url("../Image/FONDO (2).jpg");
@@ -573,7 +568,7 @@ header {
   font-family: "Montserrat", sans-serif;
   height: 600px; }
   header h1 {
-    color: #fff;
+    color: white;
     font-family: "Mrs Saint Delafield", cursive;
     text-align: center;
     font-size: 80px;
@@ -586,10 +581,10 @@ header {
     text-decoration: overline;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    color: #fff; }
+    color: white; }
   header .btn-outline-success {
-    color: #ffffff;
-    border-color: #ffffff; }
+    color: white;
+    border-color: white; }
   header .btn-outline-success:hover {
     color: #acacac;
     border-color: #acacac; }
@@ -637,31 +632,31 @@ header {
   bottom: 40px;
   right: 40px;
   background-color: #25d366;
-  color: #fff;
+  color: white;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
+  box-shadow: 2px 2px 3px grey;
   z-index: 100; }
 
 .body .float:hover {
   text-decoration: none;
   color: #25d366;
-  background-color: #fff; }
+  background-color: white; }
 
 .body .my-float {
   margin-top: 16px; }
 
 .botonimagen {
   text-decoration: none;
-  color: #111; }
+  color: black; }
 
 .botonimagen:hover {
   color: #acacac; }
 
 footer {
   background-color: white;
-  border-top: 1px solid #c2c2c2; }
+  border-top: 1px solid grey; }
   footer article {
     width: 100%;
     margin: 0px;
@@ -680,4 +675,4 @@ footer {
     -webkit-transition-timing-function: ease-in-out; }
   footer a svg:hover #facebook,
   footer a svg:hover #instagram {
-    fill: #111; }
+    fill: black; }
