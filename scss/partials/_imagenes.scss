@@ -1,3 +1,12 @@
+@mixin displayimage() {
+  background: #e3e3e3;
+  width: 380px;
+  height: 300px;
+  padding: 5px;
+  background-position: center;
+  background-size: cover;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -11,15 +20,70 @@
   justify-content: center;
   background-color: #fff;
   padding: 70px;
+}
+.headerimage {
+  height: auto;
+  width: auto;
+  background-color: #fff;
+}
 
+.imagen1 {
+  @include displayimage();
+  background-image: url(../../Image/1.jpeg);
 }
-.headerimage{
-    height: 950px;
-    width: auto;
-    background-color: #fff;
+
+.imagen2 {
+  @include displayimage();
+  background-image: url(../../Image/2.jpeg);
 }
-.imagenprueba {
-  border-radius: 2%;
+
+.imagen3 {
+  @include displayimage();
+  background-image: url(../../Image/3.jpeg);
+}
+.imagen4 {
+  @include displayimage();
+  background-image: url(../../Image/4.jpeg);
+}
+.imagen5 {
+  @include displayimage();
+  background-image: url(../../Image/5.jpeg);
+}
+.imagen6 {
+  @include displayimage();
+  background-image: url(../../Image/6.jpeg);
+}
+.imagen7 {
+  @include displayimage();
+  background-image: url(../../Image/7.jpeg);
+}
+.imagen8 {
+  @include displayimage();
+  background-image: url(../../Image/8.jpeg);
+}
+.imagen9 {
+  @include displayimage();
+  background-image: url(../../Image/9.jpeg);
+}
+
+.frente {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  color: #fff;
+  transition: all 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: scale(0.9);
+  font-family: verdana;
+}
+
+.frente:hover {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .float {
