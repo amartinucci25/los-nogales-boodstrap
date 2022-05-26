@@ -4,12 +4,16 @@
 @import "./partials/ubicacion";
 @import "./partials/nosotros";
 
-@mixin flex-column () {
+@mixin flex-column() {
   display: flex;
   flex-direction: column;
 }
 
-$font-color: ("gris": grey, "negro": black, "blanco": rgb(255, 255, 255));
+$font-color: (
+  "gris": grey,
+  "negro": black,
+  "blanco": rgb(255, 255, 255),
+);
 $gris: #acacac;
 $wp: #25d366;
 
@@ -56,6 +60,8 @@ header {
   }
 }
 .body {
+  background-color: map-get($font-color, "blanco");
+
   h4 {
     @include flex-column;
     text-align: center;
@@ -75,9 +81,7 @@ header {
   }
   .Lista {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
     background-color: map-get($font-color, "blanco");
     justify-content: space-evenly;
@@ -88,6 +92,7 @@ header {
     margin-bottom: 5%;
     list-style: none;
   }
+
   .float {
     position: fixed;
     width: 60px;
@@ -119,6 +124,7 @@ header {
 .botonimagen:hover {
   color: $gris;
 }
+
 footer {
   background-color: map-get($font-color, "blanco");
   border-top: 1px solid map-get($font-color, "gris");
@@ -144,5 +150,12 @@ footer {
   a svg:hover #facebook,
   a svg:hover #instagram {
     fill: map-get($font-color, "negro");
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 700px) 
+{
+  .card, .Lista{
+    display: flex;
+    flex-direction: column;
   }
 }
