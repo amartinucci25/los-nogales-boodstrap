@@ -416,11 +416,21 @@ span {
 }
 
 .imagen1 {
-  background-image: url(../../Image/1.jpeg);
+  width: 380px;
+  height: 300px;
+  padding: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Image/1.jpeg);
 }
 
 .imagen2 {
-  background-image: url(../../Image/2.jpeg);
+  width: 380px;
+  height: 300px;
+  padding: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Image/2.jpeg);
 }
 
 .imagen3 {
@@ -429,31 +439,61 @@ span {
   padding: 5px;
   background-position: center;
   background-size: cover;
-  background-image: url(../../Image/3.jpeg);
+  background-image: url(../Image/3.jpeg);
 }
 
 .imagen4 {
-  background-image: url(../../Image/4.jpeg);
+  width: 380px;
+  height: 300px;
+  padding: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Image/4.jpeg);
 }
 
 .imagen5 {
-  background-image: url(../../Image/5.jpeg);
+  width: 380px;
+  height: 300px;
+  padding: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Image/5.jpeg);
 }
 
 .imagen6 {
-  background-image: url(../../Image/6.jpeg);
+  width: 380px;
+  height: 300px;
+  padding: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Image/6.jpeg);
 }
 
 .imagen7 {
-  background-image: url(../../Image/7.jpeg);
+  width: 380px;
+  height: 300px;
+  padding: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Image/7.jpeg);
 }
 
 .imagen8 {
-  background-image: url(../../Image/8.jpeg);
+  width: 380px;
+  height: 300px;
+  padding: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Image/8.jpeg);
 }
 
 .imagen9 {
-  background-image: url(../../Image/9.jpeg);
+  width: 380px;
+  height: 300px;
+  padding: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../Image/9.jpeg);
 }
 
 .frente {
