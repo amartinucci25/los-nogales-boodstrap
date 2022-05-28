@@ -421,7 +421,7 @@ span {
   padding: 5px;
   background-position: center;
   background-size: cover;
-  background-image: url(../Image/1.jpeg);
+  background-image: url(../../Image/1.jpeg);
 }
 
 .imagen2 {
@@ -430,7 +430,7 @@ span {
   padding: 5px;
   background-position: center;
   background-size: cover;
-  background-image: url(../Image/2.jpeg);
+  background-image: url(../../Image/2.jpeg);
 }
 
 .imagen3 {
@@ -439,7 +439,7 @@ span {
   padding: 5px;
   background-position: center;
   background-size: cover;
-  background-image: url(../Image/3.jpeg);
+  background-image: url(../../Image/3.jpeg);
 }
 
 .imagen4 {
@@ -448,7 +448,7 @@ span {
   padding: 5px;
   background-position: center;
   background-size: cover;
-  background-image: url(../Image/4.jpeg);
+  background-image: url(../../Image/4.jpeg);
 }
 
 .imagen5 {
@@ -457,7 +457,7 @@ span {
   padding: 5px;
   background-position: center;
   background-size: cover;
-  background-image: url(../Image/5.jpeg);
+  background-image: url(../../Image/5.jpeg);
 }
 
 .imagen6 {
@@ -466,7 +466,7 @@ span {
   padding: 5px;
   background-position: center;
   background-size: cover;
-  background-image: url(../Image/6.jpeg);
+  background-image: url(../../Image/6.jpeg);
 }
 
 .imagen7 {
@@ -475,7 +475,7 @@ span {
   padding: 5px;
   background-position: center;
   background-size: cover;
-  background-image: url(../Image/7.jpeg);
+  background-image: url(../../Image/7.jpeg);
 }
 
 .imagen8 {
@@ -484,7 +484,7 @@ span {
   padding: 5px;
   background-position: center;
   background-size: cover;
-  background-image: url(../Image/8.jpeg);
+  background-image: url(../../Image/8.jpeg);
 }
 
 .imagen9 {
@@ -493,7 +493,7 @@ span {
   padding: 5px;
   background-position: center;
   background-size: cover;
-  background-image: url(../Image/9.jpeg);
+  background-image: url(../../Image/9.jpeg);
 }
 
 .frente {
