@@ -416,20 +416,10 @@ span {
 }
 
 .imagen1 {
-  width: 380px;
-  height: 300px;
-  padding: 5px;
-  background-position: center;
-  background-size: cover;
   background-image: url(../../Image/1.jpeg);
 }
 
 .imagen2 {
-  width: 380px;
-  height: 300px;
-  padding: 5px;
-  background-position: center;
-  background-size: cover;
   background-image: url(../../Image/2.jpeg);
 }
 
@@ -443,56 +433,26 @@ span {
 }
 
 .imagen4 {
-  width: 380px;
-  height: 300px;
-  padding: 5px;
-  background-position: center;
-  background-size: cover;
   background-image: url(../../Image/4.jpeg);
 }
 
 .imagen5 {
-  width: 380px;
-  height: 300px;
-  padding: 5px;
-  background-position: center;
-  background-size: cover;
   background-image: url(../../Image/5.jpeg);
 }
 
 .imagen6 {
-  width: 380px;
-  height: 300px;
-  padding: 5px;
-  background-position: center;
-  background-size: cover;
   background-image: url(../../Image/6.jpeg);
 }
 
 .imagen7 {
-  width: 380px;
-  height: 300px;
-  padding: 5px;
-  background-position: center;
-  background-size: cover;
   background-image: url(../../Image/7.jpeg);
 }
 
 .imagen8 {
-  width: 380px;
-  height: 300px;
-  padding: 5px;
-  background-position: center;
-  background-size: cover;
   background-image: url(../../Image/8.jpeg);
 }
 
 .imagen9 {
-  width: 380px;
-  height: 300px;
-  padding: 5px;
-  background-position: center;
-  background-size: cover;
   background-image: url(../../Image/9.jpeg);
 }
 
@@ -519,7 +479,6 @@ span {
           flex-direction: column;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
-  font-family: verdana;
 }
 
 .frente:hover {
