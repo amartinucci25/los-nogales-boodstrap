@@ -519,7 +519,6 @@ span {
           flex-direction: column;
   -webkit-transform: scale(0.9);
           transform: scale(0.9);
-  font-family: verdana;
 }
 
 .frente:hover {

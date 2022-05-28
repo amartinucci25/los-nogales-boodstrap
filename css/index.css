@@ -410,8 +410,7 @@ span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transform: scale(0.9);
-  font-family: verdana; }
+  transform: scale(0.9); }
 
 .frente:hover {
   opacity: 1;
