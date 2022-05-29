@@ -774,6 +774,9 @@ span {
   font-family: "Mrs Saint Delafield", cursive;
   text-align: center;
   font-size: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -808,8 +811,11 @@ span {
   .menu {
     display: block;
   }
+  .cuerpo {
+    height: 1000px;
+  }
   .headernosotros {
-    height: 800px;
+    height: 1100px;
   }
   body {
     background-color: #fff;
@@ -836,6 +842,12 @@ span {
   .cuerponosotros {
     text-align: center;
     margin: 5px;
+    height: 800px;
+  }
+  .titulonosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 

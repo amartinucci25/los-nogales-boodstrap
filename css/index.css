@@ -603,6 +603,7 @@ span {
   font-family: "Mrs Saint Delafield", cursive;
   text-align: center;
   font-size: 70px;
+  display: flex;
   flex-direction: column;
   align-content: space-around; }
 
@@ -624,8 +625,10 @@ span {
     height: 200px; }
   .menu {
     display: block; }
+  .cuerpo {
+    height: 1000px; }
   .headernosotros {
-    height: 800px; }
+    height: 1100px; }
   body {
     background-color: #fff; }
   .footer {
@@ -646,7 +649,10 @@ span {
     z-index: 100; }
   .cuerponosotros {
     text-align: center;
-    margin: 5px; } }
+    margin: 5px;
+    height: 800px; }
+  .titulonosotros {
+    display: flex; } }
 
 * {
   padding: 0;
